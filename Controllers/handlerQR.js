@@ -1,0 +1,1 @@
+const qrimage = require('qr-image');
