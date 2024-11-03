@@ -1,1 +1,1 @@
-const handlerQr = A
+const handlerQr = 
