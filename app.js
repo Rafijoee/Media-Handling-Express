@@ -8,6 +8,8 @@ const port = process.env.PORT || 3000;
 const routes = require("./routes/index");
 
 app.use('/images', express.static('public/images'));
+app.use('/videos', express.static('public/videos'));
+app.use('/pdfs', express.static('public/pdfs'));
 
 app.get("/", (req, res) => {
   res.send("Hello World");
